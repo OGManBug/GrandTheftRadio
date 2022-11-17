@@ -10,3 +10,13 @@ Todo:
 5. Fix the above issue...
 6. can i get copyrighted for this????
 7. Keep it legal!!!! Keep it legal!!!!
+8. Create Pages for all GTA games aswell as buttons for their stations
+9. Add some pizzazz ✨
+10. Unlockables????
+11. Study the swiftui documention i have sitting on for weeks
+12. RIP RAMS
+13. Hidden packages!
+14. Maps(with locations)
+15. You ever watch the tv ingame? 🤔 *hinting gta tv stations as well*
+16. Filesystem that allows users to edit the contents of the application 
+17. concept art and promotion posters 
