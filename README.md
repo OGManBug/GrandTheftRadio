@@ -20,3 +20,5 @@ Todo:
 15. You ever watch the tv ingame? 🤔 *hinting gta tv stations as well*
 16. Filesystem that allows users to edit the contents of the application 
 17. concept art and promotion posters 
+18. oh btw i have adhd that i havent been medicated for since i was 18 so do expect periods of infrequent updates.
+the more i learn and progress the more serotonin so doing my best 
