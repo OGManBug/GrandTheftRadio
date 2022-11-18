@@ -2,12 +2,25 @@
 An application for lovers of the radio stations from the GTA series, all of them, no seriously. Check the todo list!
 
 
+
+
+Update: 11/18/2022 
+1. Alignment has been solved (new bugs discovered)
+2. Icons are being added and updated.
+3. 5 Game Icons added to home screen
+4. 3 Game pages created and are Work in progress
+5. Few other details taken care of
+
+
+
+
+
 Todo:
 1. Figure the hell out how to play mp3 files with the press of a bution!
 2. Learn how to code (I do remember JavaScript tho;)
 3. The floating player neeeds to go, i was thinkin something like a wheel ui much like that from GTAV. It'll happen!
-4. Alignment is total trash!
-5. Fix the above issue...
+4. 
+5. Fix the above issue
 6. can i get copyrighted for this????
 7. Keep it legal!!!! Keep it legal!!!!
 8. Create Pages for all GTA games aswell as buttons for their stations
