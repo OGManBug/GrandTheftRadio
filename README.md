@@ -11,6 +11,9 @@ Update: 11/18/2022
 4. 3 Game pages created and are Work in progress
 5. Few other details taken care of
 
+Update: 11/18/2022-2
+1. Added requried folder to build application (Opps!)
+
 
 
 
