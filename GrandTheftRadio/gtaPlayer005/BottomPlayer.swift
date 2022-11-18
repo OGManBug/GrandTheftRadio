@@ -35,8 +35,8 @@ struct BottomPlayer : View {
                         
                         VStack(alignment : .leading){
                             
-                            Text("FlyLo FM").fontWeight(.heavy)
-                            Text("Hosted by Flying Lotus")
+                            Text("Bottom Player").fontWeight(.heavy)
+                            Text("This Shit Don't Work")
                         }
                         
                         Spacer()
