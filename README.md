@@ -5,7 +5,7 @@ An application for lovers of the radio stations from the GTA series, all of them
 Update: 11/19/2022-2
 1. Music playback has arrived!(althogh i dont know how to do multiple songs yet)
 2. i bought a beer. worked too long on this today
-
+3. K-Rose Working!
 
 update: 11/19/2022
 1. Added app icon
