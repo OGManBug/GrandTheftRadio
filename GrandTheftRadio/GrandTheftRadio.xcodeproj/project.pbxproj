@@ -16,12 +16,12 @@
 		79E5373923DC1E55006C2862 /* gtaPlayer005Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5373823DC1E55006C2862 /* gtaPlayer005Tests.swift */; };
 		79E5374423DC1E55006C2862 /* gtaPlayer005UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5374323DC1E55006C2862 /* gtaPlayer005UITests.swift */; };
 		79E5375223DC22D5006C2862 /* ComingSoonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375123DC22D5006C2862 /* ComingSoonPage.swift */; };
-		79E5375423DC2A6D006C2862 /* BottomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375323DC2A6D006C2862 /* BottomPlayer.swift */; };
 		79E5375623DC3440006C2862 /* GTA5Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5375523DC3440006C2862 /* GTA5Page.swift */; };
 		FA118EE32926101D00BFAC2E /* GTAIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA118EE22926101D00BFAC2E /* GTAIII.swift */; };
 		FA699D812924745500A9101B /* ViceCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA699D802924745500A9101B /* ViceCity.swift */; };
 		FA7F4C552927C06100E7CA62 /* SanAndreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F4C542927C06100E7CA62 /* SanAndreas.swift */; };
 		FA7F4C572927C0A300E7CA62 /* GTAIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F4C562927C0A300E7CA62 /* GTAIV.swift */; };
+		FADD226C292886DB00D9EA5F /* krose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADD226B292886DB00D9EA5F /* krose.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		79E5374323DC1E55006C2862 /* gtaPlayer005UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtaPlayer005UITests.swift; sourceTree = "<group>"; };
 		79E5374523DC1E55006C2862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79E5375123DC22D5006C2862 /* ComingSoonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonPage.swift; sourceTree = "<group>"; };
-		79E5375323DC2A6D006C2862 /* BottomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPlayer.swift; sourceTree = "<group>"; };
 		79E5375523DC3440006C2862 /* GTA5Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTA5Page.swift; sourceTree = "<group>"; };
 		FA118EE22926101D00BFAC2E /* GTAIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTAIII.swift; sourceTree = "<group>"; };
 		FA699D802924745500A9101B /* ViceCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViceCity.swift; sourceTree = "<group>"; };
 		FA7F4C502924B77900E7CA62 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FA7F4C542927C06100E7CA62 /* SanAndreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanAndreas.swift; sourceTree = "<group>"; };
 		FA7F4C562927C0A300E7CA62 /* GTAIV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTAIV.swift; sourceTree = "<group>"; };
+		FADD226B292886DB00D9EA5F /* krose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = krose.mp3; path = "../../../../Downloads/Grand Theft Auto San Andreas/krose.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,6 @@
 				79E5375523DC3440006C2862 /* GTA5Page.swift */,
 				79E5375123DC22D5006C2862 /* ComingSoonPage.swift */,
 				79E5372323DC1E50006C2862 /* SceneDelegate.swift */,
-				79E5375323DC2A6D006C2862 /* BottomPlayer.swift */,
 				79E5372123DC1E50006C2862 /* AppDelegate.swift */,
 				79E5372723DC1E55006C2862 /* Assets.xcassets */,
 				79E5372C23DC1E55006C2862 /* LaunchScreen.storyboard */,
@@ -163,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				FA7F4C502924B77900E7CA62 /* AudioToolbox.framework */,
+				FADD226B292886DB00D9EA5F /* krose.mp3 */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADD226C292886DB00D9EA5F /* krose.mp3 in Resources */,
 				79E5372E23DC1E55006C2862 /* LaunchScreen.storyboard in Resources */,
 				79E5372B23DC1E55006C2862 /* Preview Assets.xcassets in Resources */,
 				79E5372823DC1E55006C2862 /* Assets.xcassets in Resources */,
@@ -304,7 +305,6 @@
 				FA699D812924745500A9101B /* ViceCity.swift in Sources */,
 				79E5372223DC1E50006C2862 /* AppDelegate.swift in Sources */,
 				FA118EE32926101D00BFAC2E /* GTAIII.swift in Sources */,
-				79E5375423DC2A6D006C2862 /* BottomPlayer.swift in Sources */,
 				79E5375623DC3440006C2862 /* GTA5Page.swift in Sources */,
 				79E5372423DC1E50006C2862 /* SceneDelegate.swift in Sources */,
 				79E5372623DC1E50006C2862 /* ContentView.swift in Sources */,

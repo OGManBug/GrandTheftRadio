@@ -7,8 +7,9 @@
 //
 
 import SwiftUI
-
+import AVKit
 struct SanAndreas: View {
+    @State var audioPlayer: AVAudioPlayer!
     var body: some View {
         ZStack {
             Text(" ")
@@ -20,139 +21,165 @@ struct SanAndreas: View {
             ScrollView {
                 HStack {
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("playback")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("krose")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
+                    .onAppear {
+                        let sound = Bundle.main.path(forResource: "krose", ofType: "mp3")
+                        self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+                    }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("bounce")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                 }
                 HStack {
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("sfur")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("radiols")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
-                        Image("radiox")
+                        Image("dst")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                 }
                 HStack {
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("csr")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("kjah")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("mastersound")
-                            .resizable()
-                            .scaledToFill()
-                            .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
-                            .foregroundColor(.white)
-                            .padding(3.5)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .edgesIgnoringSafeArea(.all)
+                                    .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                    .cornerRadius(0)
+                                    .foregroundColor(.white)
+                                    .padding(3.5)
+                            
                     }
                 }
                 HStack {
                     Button(action: {
-                        print ("Pressed!")
+                        self.audioPlayer.play()
                     }) {
                         Image("wctr")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
-                            .cornerRadius(50)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
+                    Button(action: {
+                        self.audioPlayer.play()
+                    }) {
+                        Image("radiox")
+                            .resizable()
+                            .scaledToFit()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                    Button(action: {
+                        self.audioPlayer.pause()
+                    }) {
+                        Image(systemName: "pause.circle.fill").resizable()
+                            .frame(width: 50, height: 50)
+                            .aspectRatio(contentMode: .fit)
+                    }
                 }
+            
             }
         }
     }
         
-    struct SanAndreas_Previews: PreviewProvider {
-        static var previews: some View {
-            SanAndreas()
+        struct SanAndreas_Previews: PreviewProvider {
+            static var previews: some View {
+                SanAndreas()
+            }
         }
     }
-}
+

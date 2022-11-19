@@ -28,9 +28,9 @@ struct ContentView: View {
                             
                             Image("gta3")
                                 .resizable()
-                                .scaledToFill()
+                                .scaledToFit()
                                 .edgesIgnoringSafeArea(.all)
-                                .frame(minWidth: 0, maxWidth: 100, maxHeight: 100)
+                                .frame(minWidth: 0, maxWidth: 100, maxHeight: 125)
                                 .foregroundColor(.white)
                                 .padding(3.5)
                             
@@ -65,7 +65,7 @@ struct ContentView: View {
                     }
                     HStack {
                         
-                        NavigationLink(destination: ComingSoonPage()) {
+                        NavigationLink(destination: GTAIV()) {
                             
                             Image("gta4")
                                 .resizable()

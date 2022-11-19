@@ -6,7 +6,7 @@
 //  Copyright © 2020 zaycation. All rights reserved.
 //
 
-import AVFoundation
+import AVKit
 import UIKit
 
 @UIApplicationMain
