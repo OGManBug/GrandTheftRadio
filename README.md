@@ -2,7 +2,16 @@
 An application for lovers of the radio stations from the GTA series, all of them, no seriously. Check the todo list!
 
 
+Update: 11/19/2022-2
+1. Music playback has arrived!(althogh i dont know how to do multiple songs yet)
+2. i bought a beer. worked too long on this today
 
+
+update: 11/19/2022
+1. Added app icon
+2. Alignment has been solved 100% (i know what im doing)
+3. Adjusted some lines if code
+4. ate some mcdonalds
 
 Update: 11/18/2022 
 1. Alignment has been solved (new bugs discovered)
