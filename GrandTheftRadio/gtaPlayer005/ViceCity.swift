@@ -17,119 +17,125 @@ struct ViceCity: View {
                         .resizable()
                         .scaledToFill()
                         .edgesIgnoringSafeArea(.all))
-                ScrollView {
-                    VStack {
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Wildstyle")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Flash FM")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("K-Chat")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Fever 105")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("V-Rock")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("VCPR")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Radio Espantoso")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Emotion 98.3")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Wave 103")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                            .padding(3.5)
-                            
-                        }
-                    }
-                }
+                VStack {
+                                    HStack {
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("wildstyle")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("flash")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("kchat")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                    }
+                                    HStack {
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("fever")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("vrock")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("vcpr")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                    }
+                                    HStack {
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("espantoso")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("emotion")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                    }
+                                    HStack {
+                                        Button(action: {
+                                            print ("Pressed!")
+                                        }) {
+                                            Image("wave")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .edgesIgnoringSafeArea(.all)
+                                                .frame(minWidth: 0, maxWidth: 175, maxHeight: 95)
+                                                .cornerRadius(0)
+                                                .foregroundColor(.white)
+                                                .padding(3.5)
+                                        }
+                                    }
+                                   
+                                }
                 
             }
         }

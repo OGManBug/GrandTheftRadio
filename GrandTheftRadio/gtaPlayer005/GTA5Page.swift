@@ -34,7 +34,6 @@ struct GTA5Page: View {
                        .padding()
                 }
             }
-            BottomPlayer()
         }
     }
 }

@@ -71,7 +71,7 @@ struct ContentView: View {
                                 .resizable()
                                 .scaledToFill()
                                 .edgesIgnoringSafeArea(.all)
-                                .frame(minWidth: 0, maxWidth: 75, maxHeight: 175)
+                                .frame(minWidth: 0, maxWidth: 75, maxHeight: 125)
                             
                                 .foregroundColor(.white)
                                 .padding(3.5)
@@ -84,17 +84,15 @@ struct ContentView: View {
                                 .resizable()
                                 .scaledToFill()
                                 .edgesIgnoringSafeArea(.all)
-                                .frame(minWidth: 0, maxWidth: 75, maxHeight: 175)
-                            
+                                .frame(minWidth: 0, maxWidth: 75, maxHeight: 125)
                                 .foregroundColor(.white)
-                                .padding(3.5)
+                                .padding(15)
                             
                         }
                     }.navigationBarTitle(Text("GrandTheftRadio"), displayMode: .automatic)
                 }
                 
                 
-                BottomPlayer()
             }
         }
     }

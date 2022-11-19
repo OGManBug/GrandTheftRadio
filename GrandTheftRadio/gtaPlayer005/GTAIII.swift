@@ -17,80 +17,124 @@ struct GTAIII: View {
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all))
-            ScrollView {
+            VStack {
                 HStack {
                     Button(action: {
                         print ("Pressed!")
                     }) {
-                        Image("GTA3LOGO")
+                        Image("head")
                             .resizable()
-                            .scaledToFill()
+                            .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100)
-                            .cornerRadius(12)
+                            .frame(minWidth: 0, maxWidth: 135, maxHeight: 125)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
-                    }
-                    Button(action: {
-                        print("Pressed!")
-                        
-                    }) {
-                        Image("GTA3LOGO")
-                            .resizable()
-                            .scaledToFill()
-                            .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 100)
-                            .cornerRadius(12)
-                            .foregroundColor(.white)
-                            .padding(3.5)
-                    }
-                    Button(action: {
-                        print("Pressed!")
-                        
-                    }) {
-                        Image("LCS")
-                            .resizable()
-                            .scaledToFill()
-                            .edgesIgnoringSafeArea(.all)
-                            .frame(minWidth: 0, maxWidth: 85, maxHeight: 85)
-                            .cornerRadius(50)
-                            .foregroundColor(.white)
-                            .padding(3.5)
-                    }
-                }
-                Button(action: {
-                    print ("Pressed!")
-                }) {
-                    Text("LCS")
-                        
-                }
-                    VStack {
-                        Button(action: {
-                            print ("Pressed!")
-                        }) {
-                            Text("Lips 106")
-                                .font(.headline)
-                                .frame(minWidth: 0, maxWidth: 150)
-                                .padding()
-                                .background(Color.blue)
-                                .cornerRadius(35)
-                                .foregroundColor(.white)
-                                .padding(3.5)
-                        }
                     }
                     Button(action: {
                         print ("Pressed!")
                     }) {
-                        Text("Flashback FM")
-                            .font(.headline)
-                            .frame(minWidth: 0, maxWidth: 150)
-                            .padding()
-                            .background(Color.blue)
-                            .cornerRadius(35)
+                        Image("doubleclef")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("kjah3")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
                             .foregroundColor(.white)
                             .padding(3.5)
                     }
                 }
+                HStack {
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("rise")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 95)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("lips")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("game")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                }
+                HStack {
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("msx")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("flashback")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 125, maxHeight: 125)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                }
+                HStack {
+                    Button(action: {
+                        print ("Pressed!")
+                    }) {
+                        Image("chatterbox")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                            .frame(minWidth: 0, maxWidth: 175, maxHeight: 175)
+                            .cornerRadius(0)
+                            .foregroundColor(.white)
+                            .padding(3.5)
+                    }
+                }
+            }
             }
         }
     struct GTAIII_Previews: PreviewProvider {
