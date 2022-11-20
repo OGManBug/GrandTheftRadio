@@ -1,6 +1,9 @@
 # GrandTheftRadio
 An application for lovers of the radio stations from the GTA series, all of them, no seriously. Check the todo list!
 
+TODO.0:
+1. Add feature that auto scrubbs radio tracks at random intervals.(much like a natural radio, you tune in and listen to whats playing at the moment, not starting it over from the beginning.
+
 Update: 11/20/2022
 1. Music playback has left the building!
 
