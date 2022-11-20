@@ -1,6 +1,8 @@
 # GrandTheftRadio
 An application for lovers of the radio stations from the GTA series, all of them, no seriously. Check the todo list!
 
+Update: 11/20/2022
+1. Music playback has left the building!
 
 Update: 11/19/2022-2
 1. Music playback has arrived!(althogh i dont know how to do multiple songs yet)
